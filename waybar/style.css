@@ -1,0 +1,72 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+/*---ОБЩЕЕ--------------------------------------------------------*/
+* {
+    font-family: JetBrainsMono;
+    font-size: 12px;
+    font-weight: bold;
+	border-radius: 5px;
+  	
+}
+
+/*---БАР--------------------------------------------------------*/
+
+window#waybar {;
+
+    background-color: @background;
+}
+
+
+/*---TOOLTIP--------------------------------------------------------*/
+
+/*-Надпись-*/
+tooltip label {
+    color: @foreground;
+}
+
+
+/*---ОСНОВНЫЕ МОДУЛИ--------------------------------------------------------*/
+#custom-logo,
+#clock,
+#window,
+#workspaces,
+#workspaces button,
+#tray,
+#language,
+#custom-micro,
+#custom-music.
+#custom-music1,
+#custom-mako,
+#custom-cava,
+#backlight,
+#battery,
+#battery.time,
+#network,
+#network.disconnected,
+#network.disabled,
+#disk,
+#network.linked,
+#network.ethernet,
+#network.wifi,
+#custom-swaync,
+#custom-powermenu,
+#pulseaudio {
+    border-radius: 7px;
+    padding: 0 7.5px;
+    margin: 5px;
+	font-size: 15px;
+    color: @foreground;
+}
+
+#workspaces button:hover,
+#workspaces button.active {
+    background-color: @foreground;
+    color: @background;
+    border-radius: 5px;
+}
+
+
+#workspaces button.urgent {
+
+    background-color: #eb4d4b;
+}

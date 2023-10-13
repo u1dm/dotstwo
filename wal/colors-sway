@@ -1,0 +1,21 @@
+set $wallpaper /home/u1dm/wallpapers/journeytosea-YMMnnRZFgEI-unsplash.jpg
+
+set $background #191216
+set $foreground #dedede
+
+set $color0 #191216
+set $color1 #958871
+set $color2 #9A7887
+set $color3 #7A8183
+set $color4 #A19594
+set $color5 #B5B1AF
+set $color6 #C2BFBC
+set $color7 #dedede
+set $color8 #9b9b9b
+set $color9 #958871
+set $color10 #9A7887
+set $color11 #7A8183
+set $color12 #A19594
+set $color13 #B5B1AF
+set $color14 #C2BFBC
+set $color15 #dedede
