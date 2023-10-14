@@ -13,7 +13,6 @@ makepkg -si
 yay -S --noconfirm kitty mako jq waybar rofi-lbonn-wayland cava polkit-gnome swww gtklock pamixer cliphist python-wall grimblast-git network-manager-applet file-roller gtk-engine-murrine gnome-themes-extra xdg-user-dirs ttf-jetbrains-mono ttf-nerd-fonts-symbols papirus-icon-theme pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol wireplumber qt5-wayland xorg-xwayland qt6-wayland qt5ct qt6ct libva xdg-desktop-portal-hyprland linux-headers 
 
 cp -r hypr/ ~/.config/
-cp -r alacritty/ ~/.config/
 cp -r kitty/ ~/.config/ 
 cp -r mako/ ~/.config/ 
 cp -r rofi ~/.config/ 
